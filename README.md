@@ -48,7 +48,7 @@ The reward values 1 as long as the bird is still alive and -100 if the bird dies
 
 - Hyperparameters :
 
-We use an $\epsilon$ greedy policy to make choice. This means that we choose a random action between $0$ and $1$ with probability $\epsilon$ or choose the best action according to the current Q-Table values (therefore with probability $1-\epsilon$). Epsilon has been set to $0.001$. As for the discount factor that is used in the optimization of the Q Table with the Bellman Equation, it has been set to $0.1$.
+We use an $\epsilon$ greedy policy to make choice. This means that we choose with probability $\epsilon$ a random action between $0$ and $1$ (with probability 1/2 each) or choose the best action according to the current Q-Table values (therefore with probability $1-\epsilon$). Epsilon has been set to $0.001$. As for the discount factor that is used in the optimization of the Q Table with the Bellman Equation, it has been set to $0.1$.
 
 
  
